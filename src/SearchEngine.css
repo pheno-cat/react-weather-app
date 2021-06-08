@@ -23,7 +23,7 @@ ul {
 
 .searchBtn {
   border: 1px solid var(--accent-color);
-  background: white;
+  background: fff;
   border-radius: 4px;
   color: var(--accent-color);
   transition: all ease-in-out 200ms;

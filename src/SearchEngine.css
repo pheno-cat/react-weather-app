@@ -32,7 +32,7 @@ ul {
 }
 
 .searchBtn:hover {
-  background: var(--accent-color)
+  background: var(--accent-color);
   color: #fff;
 }
 

@@ -38,7 +38,7 @@ export default function SearchEngine(props) {
         placeholder="Type a city ... "
         onChange={updateCity}
         autocomplete="off"
-        autoFocus="on"
+        autoFocus="off"
       ></input>
       <input className="searchBtn" type="submit" value="Search"></input>
     </form>

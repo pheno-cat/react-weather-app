@@ -32,9 +32,8 @@ ul {
 }
 
 .searchBtn:hover {
-  border: 1px solid rgb(177, 8, 59);
-  background: rgb(177, 8, 59);
-  color: rgb(245, 206, 212);
+  background: var(--accent-color)
+  color: #fff;
 }
 
 form {

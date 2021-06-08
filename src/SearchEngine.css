@@ -40,7 +40,7 @@ form {
   padding: 20px;
 }
 
-input[type="text"] {
+input[type="search"] {
   border: 2px solid var(--accent-color);
   border-radius: 4px;
 }

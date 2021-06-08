@@ -1,0 +1,42 @@
+:root {
+  --primary-color: rgb(243, 188, 206);
+  --accent-color: rgb(240, 10, 106);
+  --box-shadow-dark: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow-light: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  background: var(--primary-color);
+  opacity: 80%;
+  color: black;
+  list-style-type: none;
+  padding: 30px;
+  max-width: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+  box-shadow: var(--box-shadow-dark);
+}
+
+.temp {
+  font-size: 26px;
+}
+
+.searchBtn {
+  border: 1px solid var(--accent-color);
+  background: white;
+  border-radius: 4px;
+  color: var(--accent-color);
+  transition: all ease-in-out 200ms;
+  box-shadow: var(--box-shadow-light);
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  border: 1px solid rgb(177, 8, 59);
+  background: rgb(177, 8, 59);
+  color: rgb(245, 206, 212);
+}
+
+form {
+  padding: 20px;
+}

@@ -32,16 +32,7 @@ export default function SearchEngine(props) {
   }
 
   let form = (
-    <form className="SearchEngine" onSubmit={handleSearch}>
-      <input
-        type="search"
-        placeholder="Type a city ... "
-        onChange={updateCity}
-        autocomplete="off"
-        autoFocus="off"
-      ></input>
-      <input className="searchBtn" type="submit" value="Search"></input>
-    </form>
+  
   );
 
   if (!weather) {

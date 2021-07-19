@@ -8,7 +8,7 @@ function App() {
       <div className="container mt-5">
         <h1>React Weather App</h1>
 
-        <Weather />
+        <Weather defaultCity="Dallas" />
         <footer>
           This project was coded by{" "}
           <a

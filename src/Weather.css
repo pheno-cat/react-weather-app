@@ -4,7 +4,6 @@
   padding: 16px;
   margin: 10px;
   border-radius: 10px;
-  
 }
 
 .Weather h1 {
@@ -45,11 +44,11 @@
   top: -34px;
 }
 
-.Weather img {
-  height: 64px;
+.Weather canvas {
+  height: 60px;
   margin-right: 5px;
   display: inline-block;
   line-height: 1;
   position: relative;
-  top: -15px;
+  top: 5px;
 }
